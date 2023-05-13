@@ -1,0 +1,38 @@
+.destination{
+    width: 1050px;
+    padding: 40px;
+    box-shadow: 1px 1px 20px 4px black;
+    margin-bottom: 40px;
+    .destination-name{
+        font-size: 30px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    .destination-img{
+        width: 800px;
+        height: 400px;
+        display: block;
+        margin: 0 auto;
+        object-fit: cover;
+        
+    }
+    .destination-desc{
+        height: 300px;
+        overflow: scroll;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .destination{
+        width: 100%;
+        padding: 20px;
+        .destination-name{
+            font-size: 15px;
+        }
+        .destination-img{
+            width: 100%;
+            height: auto;
+        }
+    }
+}

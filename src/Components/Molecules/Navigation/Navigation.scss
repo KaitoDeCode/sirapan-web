@@ -20,6 +20,7 @@ nav{
         li{
             margin-right: 10px;
         
+            
             p:hover{
                 cursor: pointer;
                 text-decoration: underline;
@@ -30,4 +31,18 @@ nav{
         
     }
     
+}
+
+@media screen and (max-width: 900px) {
+    nav{
+        .nav-title{
+            font-size: 20px;
+        }
+        .wrapper-nav-link{
+            p{
+                font-size: 14px;
+            }
+        }
+
+    }
 }

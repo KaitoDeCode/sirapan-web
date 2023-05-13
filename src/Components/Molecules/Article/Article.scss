@@ -1,0 +1,51 @@
+.article{
+    width: 1050px;
+    padding: 40px;
+    box-shadow: 2px 2px 8px black;
+    .article-title{
+        font-size: 25px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+
+    }
+    .article-img{
+      
+        width: 800px;
+        height: 400px;
+        display: block;
+        object-fit: cover;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .article-button{
+        margin-top: 20px;
+        width: 120px;
+        height: 45px;
+        color: #30df20;
+        border: 2px solid #30df20;
+        border-radius: 8px;
+        box-shadow: 2px 2px 8px black;
+    }
+    .article-button:hover{
+        color: white;
+        background-color: #30df20;
+        transition: 0.4s ease-in-out;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .article{
+        width: 100%;
+        padding: 20px;
+        .article-title{
+            font-size: 15px;
+            text-align: center;
+        }
+        .article-img{
+            width: 100%;
+            height: auto;
+        }
+
+    }
+}

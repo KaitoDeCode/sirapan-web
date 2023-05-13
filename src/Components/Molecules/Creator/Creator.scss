@@ -1,0 +1,115 @@
+.creator{
+    margin-top: 50px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #0d9e25;;
+
+   
+    .creator-title{
+        font-size: 40px;
+        text-transform: uppercase;
+        text-align: center;
+        text-decoration: underline;
+        color: white;
+        margin-bottom: 60px;
+    }
+    .creator-content{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+      
+        .creator-foto{
+            border: 2px solid white;
+            border-radius: 100%;
+        }
+
+        .creator-biodata{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h3{
+                font-size: 60px;
+                color: white;
+                text-decoration: underline;
+            }
+            .creator-sosmed{
+                display: flex;
+                justify-content: center;
+                
+                .sosmed{
+                    display: flex;
+                    align-items: center;
+                    margin-right: 30px;
+                    text-decoration: none;
+                    p{
+                        color: white;
+                    }
+                    
+                    .icons{
+                        width: 30px;
+                        height: 30px;
+                        margin-right: 5px;
+                    }
+
+
+                }
+
+                .sosmed:hover{
+                    p{
+                        text-decoration: underline;
+                        transition: 0.4s ease-in-out;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .creator{
+        height: auto;
+        .creator-title{
+            font-size: 20px;
+        }
+        .creator-content{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .creator-foto{
+                width: 200px;
+            }
+            .creator-biodata{
+                justify-content: center;
+                align-items: center;
+                h3{
+                    font-size: 30px;
+                }
+                .creator-sosmed{
+                    margin-right: 5px;
+                    .sosmed{
+                        margin-top: 10px;
+                        margin-bottom: 40px;
+                        display: flex;
+                       
+                        p{
+                            font-size: 10px;
+                        }
+                        margin-right: 10px;
+                        
+                        .icons{
+                           
+                           
+                                width: 20px;
+                                height: 20px;
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

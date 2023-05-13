@@ -8,7 +8,19 @@
         width: 600px;
         object-fit: cover;
     }
-    .data-desa-sirapan{
-
-    }
 }
+
+@media screen and (max-width: 900px) {
+    .app-home{
+        width: 100%;overflow: hidden;
+        
+        align-items: start;
+        flex-direction: column;
+        img{
+            width: 100%px;
+            margin-bottom: 50px;
+
+        }
+      
+    }
+  }
